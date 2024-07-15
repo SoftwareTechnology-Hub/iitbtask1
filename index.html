@@ -5,53 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospitality Process Digitalization</title>
     <STYLE>
-        body {
+      body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #f0f4f8;
     color: #333;
     margin: 0;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
 }
 
-h1, h2 {
-    text-align: center;
-    color: #4CAF50;
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2980b9;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 label {
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #555;
 }
 
 input[type="file"] {
-    padding: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
 }
 
 button {
-    padding: 10px;
-    background-color: #4CAF50;
+    padding: 12px;
+    background-color: #2980b9;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #1f658b;
 }
 
 table {
@@ -65,18 +85,23 @@ table, th, td {
 }
 
 th, td {
-    padding: 8px;
+    padding: 10px;
     text-align: center;
 }
 
 th {
-    background-color: #4CAF50;
+    background-color: #2980b9;
     color: white;
 }
 
 tbody tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
 
     </STYLE>
 </head>
